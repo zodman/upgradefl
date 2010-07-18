@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<glade-interface>
+  <!-- interface-requires gtk+ 2.16 -->
+  <!-- interface-naming-policy project-wide -->
+  <widget class="GtkWindow" id="window1">
+    <property name="title" translatable="yes">Foresight upgrade Helper</property>
+    <child>
+      <widget class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <child>
+          <widget class="GtkButton" id="button1">
+            <property name="label" translatable="yes">button</property>
+            <property name="width_request">132</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">10</property>
+            <property name="y">22</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="button2">
+            <property name="label" translatable="yes">Update All</property>
+            <property name="width_request">134</property>
+            <property name="height_request">35</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">12</property>
+            <property name="y">72</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkButton" id="button3">
+            <property name="label" translatable="yes">Migrate Packages</property>
+            <property name="width_request">135</property>
+            <property name="height_request">40</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+          </widget>
+          <packing>
+            <property name="x">13</property>
+            <property name="y">118</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="GtkTextView" id="textview1">
+            <property name="width_request">252</property>
+            <property name="height_request">178</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="editable">False</property>
+            <property name="wrap_mode">word-char</property>
+          </widget>
+          <packing>
+            <property name="x">176</property>
+            <property name="y">9</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</glade-interface>
